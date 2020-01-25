@@ -23,7 +23,6 @@ class UserController extends Controller
 
     }
     public function prepareResponse() {
-      return new UserResource(User::find(1));
 
     }
-}
+  }
